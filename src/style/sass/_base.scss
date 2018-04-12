@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Somatic-Rounded;
+    src: url(fonts/Somatic-Rounded.otf);
+}
+
+:root {
+    font-size: 62.5%; // 1rem = 10px;
+
+    //variables 
+    --txt-black: #3b3b3b;
+    --txt-gray: #C1C1C1;
+    --text-gray-dark: #979797;
+    --txt-white: #fff;
+    
+    --gray: #ebebeb;
+    --gray-body: #e6e6e6;
+    --color-primary: #7991ff;
+    --color-primary-1: #5c7aff;
+
+    --box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    --box-shadow-h: box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    @media screen and (max-width:500px){
+        font-size: 50%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Somatic-Rounded";
+    font-size: 1.6rem;
+
+    background-color: var(--gray-body);
+    color: var(--txt-gray);
+}
+
+.submit {
+    --color-primary: #2ecc71;
+    --color-primary-1: #2ecc71; 
+}
+
+

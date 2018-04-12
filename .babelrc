@@ -1,0 +1,12 @@
+{
+    "presets": [ "es2015", "stage-3",
+        ["env", {
+            "targets": {
+                "browsers": [
+                    "last 5 versions",
+                    "ie >= 8"
+                ]
+            }
+        } ]
+    ]
+}
