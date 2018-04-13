@@ -4,31 +4,64 @@
 
 Twoim zadaniem jest przygotowanie projektu prostej ankiety w technologiach web'owych (czyt. HTML, CSS, JS, etc.), na podstawie podanego wzorca. 
 
-// I made a web app
+// I made a web app similar to Typeform using JS, CSS, and HTML. App can be quickly customized so that customer questions can be made and inserted into App. As of now the app has styled templates for message(h2), text input, email input, data input, and radio input. Using template functions that I made (located at the top of the src/index.js) pages can quickly be set up in the designated area of the code. The app can have as many question pages as needed and progress bar automatically will update. The app also remembers user input during the session so if you go back a page the answers you selected will be pre-filled. Upon submitting app JSON is created that is then stored in local storage. (I thought about using node to write a file as I don't think its possible with regular JS, but due to time constraints I decided to export to local storage).
+
+If I had more time I wuld add inputs for textarea and checkbox input. 
 
 ## Wymagania
 
 Lista rzeczy, które Twój projekt absolutnie musi spełnić:
 
 - Działanie. Ankieta musi być w pełni działająca, odpowiedzi zaznaczalne, przyciski "Back" i "Next" funkcjonalne, pasek progresu pod ankietą ruchomy.
+
+//works
+
 - Budowa. W projekcie wymagane jest użycie gulp/webpack/rollup/podobne.
+
+//webpack w/ babel for es6
+
 - Konfigurowalność. Treści pytań, odpowiedzi, oraz ich ilość musi być zmienialna w możliwie jak najprostszy sposób.
+
+//questions and pages can esauly be customised.
+
 - Responsywność. Strona nie psuje się np. na urządzeniu mobilnym.
+
+// responsive,
+
 - Optymalizacja. Mimo braku wielu obrazków czy innych mediów czas wczytywania strony powinien być jak najkrótszy.
+
+//Pingdom Website Speed
+
+
+URL
+Test from
+Stockholm, Sweden 341ms, faster then 98% of websites,
+
+New York City, New York, USA  424ms
 
 ## Punkty dodatkowe
 
 Nie wymagane, ale będą dodatkowo oceniane:
 
 - Frontend'owy framework - react, vue, angular, mithril, masz pełną dowolność!
+
+// I wanted to use hyperscript, hyperscript-helpers, virtual-dom but realised that it wuld be to much unessesary weight for the task at hand.
+
 - Użycie ES6+ w kodzie, lubimy nowe rzeczy.
+
+//ES6 
+
 - Użycie preprocesora css (Sass, Less, stylus, etc.).
+
+// Sass
+
 - Dodanie prostych animacji (zaskocz nas czymś ciekawym).
+
+// a few minamalist animations have been aded to include UI/UX
+
 - Umieszczenie treści pytań ankiety w zewnętrznym pliku `.json`. W jaki sposób będziesz je wczytywał jest zależne od Ciebie, liczymy na kreatywność!
 
-## Zasoby
-
-W folderze `res/` tego repozytorium znajdziesz pliki które przydadzą Ci się w tworzeniu projektu. Użyta czcionka to [`Somatic`](https://befonts.com/somatic-font-family.html) w rozmiarze `16px`, ikonki wzięte z Font Awesome 5. Treść ankiety oraz pytań jest dowolna.
+// Saved to local storage 
 
 ## Wskazówki
 
