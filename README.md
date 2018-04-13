@@ -1,4 +1,4 @@
-#live uizzical-swanson-3b6e77.bitballoon.com 
+live uizzical-swanson-3b6e77.bitballoon.com 
 
 # Junior Frontend - Zadanie rekrutacyjne
 
