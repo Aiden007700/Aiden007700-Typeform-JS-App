@@ -4,7 +4,7 @@
 
 Twoim zadaniem jest przygotowanie projektu prostej ankiety w technologiach web'owych (czyt. HTML, CSS, JS, etc.), na podstawie podanego wzorca. 
 
--- I made a web app
+// I made a web app
 
 ## Wymagania
 
