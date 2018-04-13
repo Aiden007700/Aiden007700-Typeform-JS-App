@@ -1,5 +1,4 @@
 const element = {
-        div: ((x, y) => `<div ${y || ""} >${x}</div>`),
         questionText: ((id, q, t) => `<label class="question"> ${q} <br> <input type="text" id="${id}" ${t || ""}> </label>`),
         questionEmail: ((id, q, t) => `<label class="question"> ${q} <br> <input type="email" id="${id}" ${t || ""}> </label>`),
         questionDate: ((id, q, t) => `<label class="question"> ${q} <br> <input type="date" id="${id}" ${t || ""}> </label>`),
@@ -12,7 +11,6 @@ const element = {
     },
     {
         msg,
-        div,
         questionText,
         questionEmail,
         questionDate,
@@ -24,7 +22,7 @@ const element = {
     next = document.querySelector('.next'),
     /////////////////////////////////////////////////////////////////////////////
     //Interact with code below
-    page1 = questionText("name", "What is your full name?") + questionText("nickname", "Do you have a preferred name??") + questionDate("birthday", "What is your date of birth?"),
+    page1 = questionText("name", "What is your full name?") + questionText("nickname", "Do you have a preferred name?") + questionDate("birthday", "What is your date of birth?"),
     page2 = questionText("hometown", "Where do you live?") + questionEmail("4", "What is your email adress?") + questionDate("startDate", "When can you start work?"),
     page3 = questionDate("event", "When do you want to host your event?") + questionText("evemtWhere", "When do you want to host an event?"),
     page4 = questionText("live", "where do you want to live"),
@@ -95,8 +93,10 @@ let current = 0,
         document.body.classList.add("submit");
         console.log(json);
         json = JSON.stringify(json);
+        localStorage["questionnaire"] = json;
         console.log(json);
-        displaycurrent(msg("", "Thank You, you have successfully submitted the questionnaire") + msg("","Check console for JSON obj and stringify JSON"));
+
+        displaycurrent(msg("", "Thank You, you have successfully submitted the questionnaire") + msg("","Check console for JSON obj and stringify JSON")+ msg("","JSON saved both in local and session storage"));
     },
     checkFlag = (page) => {
         radioFlag.includes(page);

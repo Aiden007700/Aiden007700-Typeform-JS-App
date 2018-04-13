@@ -107,7 +107,7 @@ body {
 .app {
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 425px;
   width: 80%; }
   .app-v {
     display: flex;
