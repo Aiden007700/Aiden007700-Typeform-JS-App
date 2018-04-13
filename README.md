@@ -1,3 +1,5 @@
+#live uizzical-swanson-3b6e77.bitballoon.com 
+
 # Junior Frontend - Zadanie rekrutacyjne
 
 ## Opis
@@ -68,5 +70,7 @@ Nie wymagane, ale będą dodatkowo oceniane:
 ## Wskazówki
 
 - Udostępnij projekt w sposób który możemy łatwo obejrzeć (np. na GitHub pages).
+
+//uizzical-swanson-3b6e77.bitballoon.com
 - Kod twojego projektu musi być udostępniony na GitHub'ie, tak abyśmy mogli go łatwo sklonować.
 - Twój projekt nie musi w pełni 1:1 odzwierciedlić podanego wzorca (być pixel perfect), wystarczy jedynie go odwzorować.
