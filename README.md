@@ -2,6 +2,8 @@ live uizzical-swanson-3b6e77.bitballoon.com
 
 # Junior Frontend - Zadanie rekrutacyjne
 
+## Contributing
+
 ## Opis
 
 Twoim zadaniem jest przygotowanie projektu prostej ankiety w technologiach web'owych (czyt. HTML, CSS, JS, etc.), na podstawie podanego wzorca. 
